@@ -1,0 +1,31 @@
+{
+  "name": "qp-assessment",
+  "version": "1.0.0",
+  "description": "qp assignment server",
+  "main": "server.ts",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "qp-assignment"
+  },
+  "author": "Swapnil kakulate",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mysql": "^2.15.26",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "mysql2": "^3.12.0",
+    "typescript": "^5.7.3"
+  }
+}
